@@ -2,6 +2,7 @@
 layout: page
 title: Home
 tagline: the metric gear always turns
+order: 1
 ---
 {% include JB/setup %}
 
