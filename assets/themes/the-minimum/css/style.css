@@ -227,6 +227,9 @@ pre {
 .the-header .nav-global {
   text-transform: uppercase;
 }
+.the-header .nav-global li a.active {
+  color: #f8b616; 
+}
 .the-header .nav-global .forkme {
   position: relative;
   top: 2px;
@@ -803,9 +806,6 @@ pre {
 	Not that old computer layout 
 */
 @media only screen and (min-width: 1280px) {
-  .the-header .unit-inner {
-    width: 60em;
-  }
   .the-header a.logo img {    
     float: left;
   }
@@ -823,7 +823,6 @@ pre {
   }
   .unit-article .unit-foot .pagination {
     float: left;
-    width: 37.5em;
   }
   .unit-article .unit-foot .gotop {
     float: right;
@@ -839,9 +838,6 @@ pre {
   }
   .layout-page .unit-body .article-list .meta {
     width: 20.625em;
-  }
-  .the-footer .unit-foot {
-    width: 60em;
   }
 }
 /*
@@ -859,9 +855,6 @@ pre {
   }
   .unit-article .unit-foot-inner {
     width: 88.125em;
-  }
-  .unit-article .unit-foot .pagination {
-    width: 54.375em;
   }
   .unit-article .unit-foot .gotop {
     padding-right: 260px;

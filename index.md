@@ -1,7 +1,7 @@
 ---
 layout: page
-title: the metric gear is always turning 
-tagline: Supporting tagline
+title: Home
+tagline: the metric gear always turns
 ---
 {% include JB/setup %}
 
