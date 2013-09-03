@@ -221,6 +221,12 @@ pre {
 /* meta */
 /* HEADER
 --------------------------------------------------------------------------------- */
+.intro {
+  color: #768482; 
+  font-size: 36px;; 
+  line-height: 135%; 
+  margin-bottom: 35px; 
+}
 .the-header a.logo img { 
   margin: 0;
 }
