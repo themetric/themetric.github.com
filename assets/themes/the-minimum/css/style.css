@@ -242,18 +242,16 @@ pre {
 }
 /* MAIN
 --------------------------------------------------------------------------------- */
-.unit-article header {
-  background: url('/assets/themes/the-minimum/skin/100-90-5-monochrome.png');
-  background-repeat: repeat;
-  background-position: 0 0;
-  background-color: #FFEEC3;
+.unit-article header {  
+  background-color: #333;
   margin-bottom: 1.625em;
   padding-top: 1.625em;
   padding-bottom: 1.625em;
 }
 .unit-article header h1 {
   font-size: 36px; 
-  color: #2d2d2d;
+  color: #E7E7E7;
+  text-shadow: 2px 1px #000;
   margin-top: 0;
   margin-bottom: 0;
 }
