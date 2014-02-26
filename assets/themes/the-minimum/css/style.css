@@ -473,28 +473,29 @@ pre {
 .unit-article .entry-content {
   min-height: 400px;
 }
-.projects .project {
+
+.works .project {
   position: relative;
   clear: both;  
   padding: 10px; 
-  margin-bottom: 20px; 
+  margin: 20px 0px; 
 }
-.projects .project:hover {
+.works .project:hover {
   background-color: #FAFAFA; 
 }
-.projects .project .right-info {
+.works .project .right-info {
   float: right; 
 }
-.projects .project #date {
+.works .project #date {
   color: #D6D6D6; 
   display: block; 
   margin-bottom: 10px; 
 }
-.projects .project .left-info {
+.works .project .left-info {
   float: left; 
   position: relative; 
 }
-.projects .project a#image-link { 
+.works .project a#image-link { 
   position: relative;
   display: block;
   overflow: hidden;
@@ -502,22 +503,26 @@ pre {
   border: none;   
   float: left; 
 }
-.projects .project .description {
+.works .project .description {
 
 }
-.projects .project #role {
+
+h3#consulting {
+  margin-top: 50px; 
+}
+.works .project #role {
   font-style: italic; 
   display: block; 
   color: #777; 
 }
-.projects .project::after {
+.works .project::after {
   clear: both; 
 }
-.projects .project img {
+.works .project img {
   border: 6px solid #EEE;
   margin: 0px 15px 0px 0px !important; 
 }
-.projects .project .name {
+.works .project .name {
   font-weight: bold; 
   font-size: 22px; 
   display: block; 
@@ -528,6 +533,60 @@ pre {
   opacity: 0.9;
   margin-right: 15px; 
 }
+.works .item {
+  position:relative;
+  margin-top:70px
+}
+.works .item a { 
+  display:block;
+  font-size:13px;
+  text-decoration:none;
+  color:#333; 
+  border-bottom: 0px !important;
+}
+.works .item .item-hover h3 {
+  margin:0;padding:17% 0 15px;
+  font-size:34px; 
+  color: #FFF !important;
+}
+.works .item h4 {
+  margin:0;
+  padding:15px 0 0;
+  font-size:18px;
+  font-weight:normal;
+  font-style:italic; 
+  color: white !important;
+}
+.works .item #role {
+  margin-top: 10px; 
+  font-size: 16px; 
+  color: #666; 
+}
+.works .item .item-body img {
+  width:100%;
+  display:block; 
+  border: 1px solid #777;
+}
+.works .item .item-hover{
+  position:absolute;
+  z-index:10;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:#1f1f1f;
+  text-align:center;
+  filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity:0;
+  -webkit-transition:all 0.2s;
+  -moz-transition:all 0.2s;
+  -o-transition:all 0.2s;transition:all 0.2s
+}
+.works .item:hover .item-hover {
+  filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity:1
+}
+
 .btn {
   color: white !important; 
   background-color: #eb9f1b; 
